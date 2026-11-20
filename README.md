@@ -1,5 +1,7 @@
 # Godwit Endurance Inference (GEI)
 
+[![tests](https://github.com/Hossein-j/godwit/actions/workflows/tests.yml/badge.svg)](https://github.com/Hossein-j/godwit/actions/workflows/tests.yml)
+
 A language model that shrinks its own weights **during a single generation**, on
 a schedule planned before launch, to free memory for its growing context — and
 checks beforehand whether the task can finish at all.
