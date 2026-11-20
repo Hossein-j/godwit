@@ -1,6 +1,9 @@
 # Godwit Endurance Inference (GEI)
 
 [![tests](https://github.com/Hossein-j/godwit/actions/workflows/tests.yml/badge.svg)](https://github.com/Hossein-j/godwit/actions/workflows/tests.yml)
+[![Code license: Apache-2.0](https://img.shields.io/badge/code%20license-Apache--2.0-blue.svg)](LICENSE)
+[![Data license: CC BY 4.0](https://img.shields.io/badge/data%20license-CC%20BY%204.0-lightgrey.svg)](LICENSE-DATA)
+[![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
 
 A language model that shrinks its own weights **during a single generation**, on
 a schedule planned before launch, to free memory for its growing context — and
