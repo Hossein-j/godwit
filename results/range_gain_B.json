@@ -1,0 +1,43 @@
+{
+  "condition": "B",
+  "kv_cache": "block",
+  "model": "Qwen/Qwen3-8B",
+  "widths": [
+    12288,
+    6144
+  ],
+  "envelope_bytes": 16911433728,
+  "device_total_bytes": 25358630912,
+  "block_tokens": 512,
+  "prompt_tokens": 14,
+  "generated_tokens": 38899,
+  "context_tokens": 38913,
+  "stopped_by": "out_of_memory",
+  "failure": "CUDA out of memory",
+  "kv_bytes_at_end": 5787090944,
+  "peak_allocated": 16745873408,
+  "peak_reserved": 16909336576,
+  "after_load": {
+    "allocated": 16383586816,
+    "reserved": 16536043520
+  },
+  "before_generation": {
+    "allocated": 16383586816,
+    "reserved": 16536043520
+  },
+  "weight_bytes": [
+    16381470976,
+    10945652992
+  ],
+  "burn": {
+    "at_generated_token": 1523,
+    "context_tokens": 1537,
+    "probe_bytes": 142606336,
+    "freed_bytes": 5435817984,
+    "switch_ms": 80.26981353759766,
+    "peak_reserved_before": 16909336576
+  },
+  "load_seconds": 5.77554726600647,
+  "generation_seconds": 818.1008057594299,
+  "ms_per_token": 21.031409695864415
+}

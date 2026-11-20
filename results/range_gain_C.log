@@ -1,0 +1,51 @@
+  2000 tokens, kv 0.281 GiB, 18.1 ms/token
+  4000 tokens, kv 0.562 GiB, 17.9 ms/token
+  6000 tokens, kv 0.844 GiB, 17.9 ms/token
+  8000 tokens, kv 1.125 GiB, 17.9 ms/token
+  10000 tokens, kv 1.406 GiB, 18.0 ms/token
+  12000 tokens, kv 1.688 GiB, 18.1 ms/token
+  14000 tokens, kv 1.969 GiB, 18.3 ms/token
+  16000 tokens, kv 2.250 GiB, 18.5 ms/token
+  18000 tokens, kv 2.531 GiB, 18.7 ms/token
+  20000 tokens, kv 2.812 GiB, 18.9 ms/token
+  22000 tokens, kv 3.023 GiB, 19.1 ms/token
+  24000 tokens, kv 3.305 GiB, 19.3 ms/token
+  26000 tokens, kv 3.586 GiB, 19.5 ms/token
+  28000 tokens, kv 3.867 GiB, 19.7 ms/token
+  30000 tokens, kv 4.148 GiB, 19.9 ms/token
+  32000 tokens, kv 4.430 GiB, 20.1 ms/token
+  34000 tokens, kv 4.711 GiB, 20.3 ms/token
+  36000 tokens, kv 4.992 GiB, 20.5 ms/token
+  38000 tokens, kv 5.273 GiB, 20.7 ms/token
+{
+ "condition": "C",
+ "kv_cache": "block",
+ "model": "Qwen/Qwen3-8B",
+ "widths": [
+  12288,
+  6144
+ ],
+ "envelope_bytes": 16911433728,
+ "device_total_bytes": 25358630912,
+ "block_tokens": 512,
+ "prompt_tokens": 14,
+ "generated_tokens": 38899,
+ "context_tokens": 38913,
+ "stopped_by": "out_of_memory",
+ "failure": "CUDA out of memory",
+ "kv_bytes_at_end": 5787090944,
+ "peak_allocated": 16745873408,
+ "peak_reserved": 16909336576,
+ "before_generation": {
+  "allocated": 10947768832,
+  "reserved": 11100225536
+ },
+ "weight_bytes": [
+  16381470976,
+  10945652992
+ ],
+ "burn": null,
+ "load_seconds": 5.474135875701904,
+ "generation_seconds": 810.0377695560455,
+ "ms_per_token": 20.824128372350074
+}

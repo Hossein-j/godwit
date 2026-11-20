@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "ffn_blocks": 36,
+  "width_large": 12288,
+  "width_small": 6144,
+  "kv_layout": "paged",
+  "page_bytes": 2097152,
+  "empty_cache": true,
+  "device_total": 25358630912,
+  "alloc_large": 16383586816,
+  "alloc_small": 17427968512,
+  "drop": 5435817984,
+  "expected_drop": 5435817984,
+  "view_trap_freed": 0,
+  "shrink_transient_peak": 50331648,
+  "margin": 201326592,
+  "kv_capacity_before": 318767104,
+  "kv_capacity_after": 5695864832,
+  "kv_gain": 5377097728,
+  "drop_ok": true,
+  "claim_ok": false,
+  "forward_ok": true
+}

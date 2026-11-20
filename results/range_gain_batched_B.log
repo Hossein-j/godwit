@@ -1,0 +1,47 @@
+burn at step 1010: freed 2.3438 GiB in 79 ms
+  2000 steps, kv 0.500 GiB, 31.6 ms/step
+  4000 steps, kv 0.750 GiB, 31.8 ms/step
+  6000 steps, kv 1.000 GiB, 32.3 ms/step
+  8000 steps, kv 1.250 GiB, 32.9 ms/step
+  10000 steps, kv 1.500 GiB, 33.5 ms/step
+  12000 steps, kv 1.750 GiB, 34.1 ms/step
+  14000 steps, kv 2.000 GiB, 34.7 ms/step
+  16000 steps, kv 2.250 GiB, 35.4 ms/step
+  18000 steps, kv 2.500 GiB, 36.1 ms/step
+  20000 steps, kv 2.750 GiB, 36.8 ms/step
+{
+ "condition": "B",
+ "kv_cache": "block",
+ "model": "google/gemma-3n-E4B-it",
+ "batch": 16,
+ "envelope_bytes": 14388140441,
+ "device_total_bytes": 25358630912,
+ "block_tokens": 512,
+ "margin_mib": 128,
+ "prompt_tokens": 15,
+ "steps": 20466,
+ "context_tokens": 20481,
+ "stopped_by": "out_of_memory",
+ "failure": "CUDA out of memory",
+ "kv_bytes_at_end": 2985820160,
+ "peak_allocated": 14281523712,
+ "peak_reserved": 14369685504,
+ "before_generation": {
+  "allocated": 13735559680,
+  "reserved": 13748928512
+ },
+ "weight_bytes": [
+  13733394548,
+  11216812148
+ ],
+ "burn": {
+  "at_step": 1010,
+  "context_tokens": 1025,
+  "probe_bytes": 201326592,
+  "freed_bytes": 2516582400,
+  "switch_ms": 79.45966720581055
+ },
+ "load_seconds": 3.1209754943847656,
+ "generation_seconds": 755.6595213413239,
+ "ms_per_step": 36.922677677187714
+}

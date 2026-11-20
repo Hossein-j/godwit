@@ -1,0 +1,34 @@
+{
+  "condition": "A-dynamic",
+  "kv_cache": "dynamic",
+  "model": "google/gemma-3n-E4B-it",
+  "batch": 16,
+  "envelope_bytes": 14388140441,
+  "device_total_bytes": 25358630912,
+  "block_tokens": 512,
+  "margin_mib": 128,
+  "prompt_tokens": 15,
+  "steps": 1138,
+  "context_tokens": 1153,
+  "stopped_by": "out_of_memory",
+  "failure": "CUDA out of memory",
+  "kv_bytes_at_end": 419004416,
+  "peak_allocated": 14232718848,
+  "peak_reserved": 14373879808,
+  "after_load": {
+    "allocated": 13735559680,
+    "reserved": 13748928512
+  },
+  "before_generation": {
+    "allocated": 13735559680,
+    "reserved": 13748928512
+  },
+  "weight_bytes": [
+    13733394548,
+    11216812148
+  ],
+  "burn": null,
+  "load_seconds": 3.226923704147339,
+  "generation_seconds": 36.16300964355469,
+  "ms_per_step": 31.777688614722923
+}

@@ -1,0 +1,398 @@
+{
+  "anchor": {
+    "n": 50,
+    "foreign_tokens_median": 87.5,
+    "accuracy": {
+      "A": [
+        0.9,
+        0.82,
+        0.98
+      ],
+      "B": [
+        0.82,
+        0.72,
+        0.92
+      ],
+      "C0": [
+        0.88,
+        0.78,
+        0.96
+      ]
+    },
+    "paired_C0_minus_B": [
+      0.06,
+      -0.02,
+      0.16
+    ],
+    "mcnemar_C0_vs_B": {
+      "a_only": 4,
+      "b_only": 1,
+      "p": 0.375
+    },
+    "conditional": {
+      "P(C0 | B correct)": 0.975609756097561,
+      "P(B | C0 correct)": 0.9090909090909091
+    },
+    "kl_first": {
+      "mean": 0.24358609220230018,
+      "median": 0.10729390030357813,
+      "ci95": [
+        0.17347135974779773,
+        0.3205334016903551
+      ],
+      "p90": 0.5898200226229319
+    },
+    "kl_window_mean": 0.03644042232298685,
+    "kl_by_offset": {
+      "0-1": 0.2426397724469598,
+      "1-10": 0.045476006805298674,
+      "10-50": 0.05967719711514695,
+      "50-200": 0.02755587783971669
+    },
+    "D0_check": {
+      "n": 10,
+      "tokens_equal_B": 10,
+      "first_logprobs_bitwise_equal_B": 10,
+      "max_abs_kl_routine": 4.193947686879132e-09
+    },
+    "reuse_spot_check": {
+      "A": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "B": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "runaway": {
+      "B": 3,
+      "C0": 1
+    },
+    "loop": {
+      "B": 5,
+      "C0": 2
+    },
+    "failure_classes": {
+      "B": {
+        "runaway/loop": 3,
+        "reasoning slip": 6
+      },
+      "C0": {
+        "reasoning slip": 5,
+        "runaway/loop": 1
+      }
+    },
+    "B_too_weak": false,
+    "extend_to_100": false
+  },
+  "1k": {
+    "n": 50,
+    "foreign_tokens_median": 822.5,
+    "accuracy": {
+      "A": [
+        0.84,
+        0.74,
+        0.94
+      ],
+      "B": [
+        0.72,
+        0.6,
+        0.84
+      ],
+      "C0": [
+        0.76,
+        0.64,
+        0.86
+      ]
+    },
+    "paired_C0_minus_B": [
+      0.04,
+      -0.08,
+      0.16
+    ],
+    "mcnemar_C0_vs_B": {
+      "a_only": 5,
+      "b_only": 3,
+      "p": 0.7265625
+    },
+    "conditional": {
+      "P(C0 | B correct)": 0.9166666666666666,
+      "P(B | C0 correct)": 0.868421052631579
+    },
+    "kl_first": {
+      "mean": 0.3438742483164577,
+      "median": 0.23682973888368208,
+      "ci95": [
+        0.246382356159683,
+        0.4501824715084374
+      ],
+      "p90": 0.7998810617040651
+    },
+    "kl_window_mean": 0.05728032160972628,
+    "kl_by_offset": {
+      "0-1": 0.36891635323016314,
+      "1-10": 0.1805917527047649,
+      "10-50": 0.08548129741129644,
+      "50-200": 0.031181332932385595
+    },
+    "D0_check": {
+      "n": 10,
+      "tokens_equal_B": 10,
+      "first_logprobs_bitwise_equal_B": 10,
+      "max_abs_kl_routine": 1.2416913709357593e-08
+    },
+    "reuse_spot_check": {
+      "A": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "B": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "runaway": {
+      "B": 5,
+      "C0": 3
+    },
+    "loop": {
+      "B": 4,
+      "C0": 4
+    },
+    "failure_classes": {
+      "B": {
+        "reasoning slip": 9,
+        "runaway/loop": 5
+      },
+      "C0": {
+        "reasoning slip": 8,
+        "runaway/loop": 4
+      }
+    },
+    "B_too_weak": false,
+    "extend_to_100": false
+  },
+  "4k": {
+    "n": 50,
+    "foreign_tokens_median": 3922.5,
+    "accuracy": {
+      "A": [
+        0.82,
+        0.7,
+        0.92
+      ],
+      "B": [
+        0.56,
+        0.42,
+        0.7
+      ],
+      "C0": [
+        0.62,
+        0.48,
+        0.76
+      ]
+    },
+    "paired_C0_minus_B": [
+      0.06,
+      -0.08,
+      0.2
+    ],
+    "mcnemar_C0_vs_B": {
+      "a_only": 9,
+      "b_only": 6,
+      "p": 0.60723876953125
+    },
+    "conditional": {
+      "P(C0 | B correct)": 0.7857142857142857,
+      "P(B | C0 correct)": 0.7096774193548387
+    },
+    "kl_first": {
+      "mean": 0.5606776552630628,
+      "median": 0.29411095148335364,
+      "ci95": [
+        0.39034013679368545,
+        0.7546338059855437
+      ],
+      "p90": 1.2963305430909542
+    },
+    "kl_window_mean": 0.04127767998028793,
+    "kl_by_offset": {
+      "0-1": 0.5578510991268132,
+      "1-10": 0.1544553785890294,
+      "10-50": 0.06532355991495004,
+      "50-200": 0.020366107629813987
+    },
+    "D0_check": {
+      "n": 10,
+      "tokens_equal_B": 10,
+      "first_logprobs_bitwise_equal_B": 10,
+      "max_abs_kl_routine": 3.064787572788274e-08
+    },
+    "reuse_spot_check": {
+      "A": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "B": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "runaway": {
+      "B": 7,
+      "C0": 6
+    },
+    "loop": {
+      "B": 6,
+      "C0": 5
+    },
+    "failure_classes": {
+      "B": {
+        "reasoning slip": 12,
+        "wrong question": 3,
+        "runaway/loop": 7
+      },
+      "C0": {
+        "reasoning slip": 11,
+        "runaway/loop": 6,
+        "wrong question": 2
+      }
+    },
+    "B_too_weak": false,
+    "extend_to_100": false
+  },
+  "16k": {
+    "n": 50,
+    "foreign_tokens_median": 16206.5,
+    "accuracy": {
+      "A": [
+        0.64,
+        0.5,
+        0.76
+      ],
+      "B": [
+        0.26,
+        0.14,
+        0.38
+      ],
+      "C0": [
+        0.4,
+        0.26,
+        0.54
+      ]
+    },
+    "paired_C0_minus_B": [
+      0.14,
+      -0.02,
+      0.3
+    ],
+    "mcnemar_C0_vs_B": {
+      "a_only": 12,
+      "b_only": 5,
+      "p": 0.143463134765625
+    },
+    "conditional": {
+      "P(C0 | B correct)": 0.6153846153846154,
+      "P(B | C0 correct)": 0.4
+    },
+    "kl_first": {
+      "mean": 0.5431319130202166,
+      "median": 0.3213251716516634,
+      "ci95": [
+        0.3896062726848512,
+        0.7162576927739327
+      ],
+      "p90": 1.421829998136388
+    },
+    "kl_window_mean": 0.061404531541895804,
+    "kl_by_offset": {
+      "0-1": 0.5670259314843977,
+      "1-10": 0.12310469147217543,
+      "10-50": 0.12885494744183495,
+      "50-200": 0.026135634817795253
+    },
+    "D0_check": {
+      "n": 10,
+      "tokens_equal_B": 10,
+      "first_logprobs_bitwise_equal_B": 10,
+      "max_abs_kl_routine": 1.62959991534679e-08
+    },
+    "reuse_spot_check": {
+      "A": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "B": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "runaway": {
+      "B": 7,
+      "C0": 12
+    },
+    "loop": {
+      "B": 9,
+      "C0": 12
+    },
+    "failure_classes": {
+      "B": {
+        "reasoning slip": 18,
+        "wrong question": 10,
+        "runaway/loop": 9
+      },
+      "C0": {
+        "reasoning slip": 13,
+        "runaway/loop": 11,
+        "wrong question": 6
+      }
+    },
+    "B_too_weak": true,
+    "extend_to_100": false
+  }
+}

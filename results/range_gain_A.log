@@ -1,0 +1,32 @@
+  2000 tokens, kv 0.281 GiB, 24.6 ms/token
+{
+ "condition": "A",
+ "model": "Qwen/Qwen3-8B",
+ "widths": [
+  12288,
+  6144
+ ],
+ "envelope_bytes": 16911433728,
+ "device_total_bytes": 25358630912,
+ "block_tokens": 512,
+ "prompt_tokens": 14,
+ "generated_tokens": 2035,
+ "context_tokens": 2049,
+ "stopped_by": "out_of_memory",
+ "failure": "CUDA out of memory",
+ "kv_bytes_at_end": 353370112,
+ "peak_allocated": 16745565696,
+ "peak_reserved": 16909336576,
+ "before_generation": {
+  "allocated": 16383586816,
+  "reserved": 16536043520
+ },
+ "weight_bytes": [
+  16381470976,
+  10945652992
+ ],
+ "burn": null,
+ "load_seconds": 5.592378377914429,
+ "generation_seconds": 49.99754238128662,
+ "ms_per_token": 24.56881689498114
+}

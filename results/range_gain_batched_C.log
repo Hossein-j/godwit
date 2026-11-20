@@ -1,0 +1,40 @@
+  2000 steps, kv 0.500 GiB, 30.9 ms/step
+  4000 steps, kv 0.750 GiB, 31.8 ms/step
+  6000 steps, kv 1.000 GiB, 32.4 ms/step
+  8000 steps, kv 1.250 GiB, 33.1 ms/step
+  10000 steps, kv 1.500 GiB, 33.6 ms/step
+  12000 steps, kv 1.750 GiB, 34.2 ms/step
+  14000 steps, kv 2.000 GiB, 34.9 ms/step
+  16000 steps, kv 2.250 GiB, 35.5 ms/step
+  18000 steps, kv 2.500 GiB, 36.2 ms/step
+  20000 steps, kv 2.750 GiB, 36.9 ms/step
+{
+ "condition": "C",
+ "kv_cache": "block",
+ "model": "google/gemma-3n-E4B-it",
+ "batch": 16,
+ "envelope_bytes": 14388140441,
+ "device_total_bytes": 25358630912,
+ "block_tokens": 512,
+ "margin_mib": 128,
+ "prompt_tokens": 15,
+ "steps": 20466,
+ "context_tokens": 20481,
+ "stopped_by": "out_of_memory",
+ "failure": "CUDA out of memory",
+ "kv_bytes_at_end": 2985820160,
+ "peak_allocated": 14275251200,
+ "peak_reserved": 14382268416,
+ "before_generation": {
+  "allocated": 11218977280,
+  "reserved": 11232346112
+ },
+ "weight_bytes": [
+  13733394548,
+  11216812148
+ ],
+ "burn": null,
+ "load_seconds": 2.8818604946136475,
+ "generation_seconds": 758.0596258640289,
+ "ms_per_step": 37.03995044776844
+}

@@ -1,0 +1,103 @@
+{
+  "model": "google/gemma-3n-E4B-it",
+  "dataset": "openai/gsm8k@740312add8",
+  "args": {
+    "n_problems": 100,
+    "max_new": 8192,
+    "switch_fraction": 0.5,
+    "preflight": 5,
+    "trials": "results/exp1_pilot_trials.jsonl",
+    "out": "results/exp1_pilot.json"
+  },
+  "summary": {
+    "A_large": {
+      "n": 100,
+      "accuracy": 0.9,
+      "ci95": [
+        0.84,
+        0.95
+      ],
+      "mean_quality": -0.04177261790817335,
+      "switch_shock_kl": null
+    },
+    "B_small": {
+      "n": 100,
+      "accuracy": 0.82,
+      "ci95": [
+        0.74,
+        0.89
+      ],
+      "mean_quality": -0.2672261765681082,
+      "switch_shock_kl": null
+    },
+    "C_reuse": {
+      "n": 100,
+      "accuracy": 0.85,
+      "ci95": [
+        0.78,
+        0.92
+      ],
+      "mean_quality": -0.13226295399680027,
+      "switch_shock_kl": 0.030204525603421694
+    },
+    "D_recompute": {
+      "n": 100,
+      "accuracy": 0.86,
+      "ci95": [
+        0.79,
+        0.93
+      ],
+      "mean_quality": -0.13579574936211394,
+      "switch_shock_kl": 0.0007752749101790858
+    }
+  },
+  "verdict_interval_overlap": "PASS (1): C matches B within noise -> KV reuse works. Proceed to the full controller.",
+  "paired_accuracy_diff_ci95": {
+    "C_reuse-B_small": [
+      0.03,
+      -0.04,
+      0.1
+    ],
+    "D_recompute-B_small": [
+      0.04,
+      -0.02,
+      0.11
+    ],
+    "C_reuse-D_recompute": [
+      -0.01,
+      -0.06,
+      0.04
+    ],
+    "A_large-B_small": [
+      0.08,
+      0.01,
+      0.15
+    ]
+  },
+  "preflight": {
+    "b_equals_d0": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true
+    },
+    "a_equals_plain": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "3": false,
+      "4": true
+    }
+  },
+  "configs": [
+    [
+      "E4B",
+      13733394548
+    ],
+    [
+      "mixmatch_l0-9_full",
+      11216812148
+    ]
+  ]
+}

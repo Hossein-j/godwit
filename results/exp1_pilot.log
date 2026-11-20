@@ -1,0 +1,184 @@
+configs: [('E4B', 12.79), ('mixmatch_l0-9_full', 10.446)]; burnable layers 10-34
+problem 0: len_A 124, switch at 62; running acc A=1.00 B=1.00 C=1.00 D=1.00 | 0.3 min elapsed
+problem 1: len_A 87, switch at 43; running acc A=1.00 B=1.00 C=1.00 D=1.00 | 0.5 min elapsed
+problem 2: len_A 220, switch at 110; running acc A=1.00 B=1.00 C=1.00 D=1.00 | 1.0 min elapsed
+problem 3: len_A 88, switch at 44; running acc A=1.00 B=1.00 C=1.00 D=1.00 | 1.3 min elapsed
+problem 4: len_A 167, switch at 83; running acc A=1.00 B=1.00 C=1.00 D=1.00 | 1.9 min elapsed
+problem 5: len_A 174, switch at 87; running acc A=1.00 B=0.83 C=1.00 D=0.83 | 9.9 min elapsed
+problem 6: len_A 226, switch at 113; running acc A=1.00 B=0.86 C=1.00 D=0.86 | 10.3 min elapsed
+problem 7: len_A 274, switch at 137; running acc A=0.88 B=0.75 C=0.88 D=0.75 | 10.9 min elapsed
+problem 8: len_A 375, switch at 187; running acc A=0.89 B=0.78 C=0.89 D=0.67 | 11.5 min elapsed
+problem 9: len_A 216, switch at 108; running acc A=0.90 B=0.80 C=0.90 D=0.70 | 11.9 min elapsed
+problem 10: len_A 189, switch at 94; running acc A=0.91 B=0.82 C=0.91 D=0.73 | 12.3 min elapsed
+problem 11: len_A 121, switch at 60; running acc A=0.92 B=0.83 C=0.92 D=0.75 | 12.5 min elapsed
+problem 12: len_A 231, switch at 115; running acc A=0.85 B=0.77 C=0.85 D=0.69 | 13.0 min elapsed
+problem 13: len_A 435, switch at 217; running acc A=0.86 B=0.79 C=0.86 D=0.71 | 13.9 min elapsed
+problem 14: len_A 270, switch at 135; running acc A=0.87 B=0.80 C=0.87 D=0.73 | 14.4 min elapsed
+problem 15: len_A 292, switch at 146; running acc A=0.81 B=0.81 C=0.81 D=0.69 | 14.9 min elapsed
+problem 16: len_A 95, switch at 47; running acc A=0.82 B=0.82 C=0.82 D=0.71 | 15.1 min elapsed
+problem 17: len_A 193, switch at 96; running acc A=0.83 B=0.83 C=0.83 D=0.72 | 15.5 min elapsed
+problem 18: len_A 171, switch at 85; running acc A=0.84 B=0.84 C=0.84 D=0.74 | 15.9 min elapsed
+problem 19: len_A 221, switch at 110; running acc A=0.85 B=0.85 C=0.85 D=0.75 | 16.3 min elapsed
+problem 20: len_A 404, switch at 202; running acc A=0.86 B=0.81 C=0.86 D=0.76 | 17.2 min elapsed
+problem 21: len_A 114, switch at 57; running acc A=0.86 B=0.77 C=0.86 D=0.73 | 21.4 min elapsed
+problem 22: len_A 137, switch at 68; running acc A=0.87 B=0.78 C=0.87 D=0.74 | 21.6 min elapsed
+problem 23: len_A 93, switch at 46; running acc A=0.88 B=0.79 C=0.88 D=0.75 | 21.8 min elapsed
+problem 24: len_A 288, switch at 144; running acc A=0.88 B=0.80 C=0.88 D=0.76 | 22.4 min elapsed
+problem 25: len_A 167, switch at 83; running acc A=0.88 B=0.81 C=0.88 D=0.77 | 22.8 min elapsed
+problem 26: len_A 297, switch at 148; running acc A=0.89 B=0.81 C=0.85 D=0.78 | 27.1 min elapsed
+problem 27: len_A 176, switch at 88; running acc A=0.89 B=0.82 C=0.86 D=0.79 | 27.4 min elapsed
+problem 28: len_A 126, switch at 63; running acc A=0.90 B=0.83 C=0.86 D=0.79 | 27.7 min elapsed
+problem 29: len_A 214, switch at 107; running acc A=0.90 B=0.83 C=0.87 D=0.80 | 28.3 min elapsed
+problem 30: len_A 193, switch at 96; running acc A=0.90 B=0.84 C=0.87 D=0.81 | 28.7 min elapsed
+problem 31: len_A 278, switch at 139; running acc A=0.91 B=0.84 C=0.88 D=0.81 | 29.3 min elapsed
+problem 32: len_A 122, switch at 61; running acc A=0.91 B=0.85 C=0.88 D=0.82 | 29.5 min elapsed
+problem 33: len_A 343, switch at 171; running acc A=0.91 B=0.85 C=0.88 D=0.82 | 30.1 min elapsed
+problem 34: len_A 213, switch at 106; running acc A=0.91 B=0.86 C=0.89 D=0.83 | 30.5 min elapsed
+problem 35: len_A 154, switch at 77; running acc A=0.92 B=0.86 C=0.89 D=0.83 | 30.8 min elapsed
+problem 36: len_A 204, switch at 102; running acc A=0.89 B=0.86 C=0.86 D=0.81 | 31.2 min elapsed
+problem 37: len_A 300, switch at 150; running acc A=0.87 B=0.84 C=0.84 D=0.79 | 35.5 min elapsed
+problem 38: len_A 144, switch at 72; running acc A=0.87 B=0.85 C=0.85 D=0.79 | 35.8 min elapsed
+problem 39: len_A 404, switch at 202; running acc A=0.88 B=0.82 C=0.85 D=0.80 | 40.6 min elapsed
+problem 40: len_A 121, switch at 60; running acc A=0.88 B=0.83 C=0.85 D=0.80 | 40.8 min elapsed
+problem 41: len_A 262, switch at 131; running acc A=0.88 B=0.83 C=0.86 D=0.81 | 41.4 min elapsed
+problem 42: len_A 89, switch at 44; running acc A=0.88 B=0.84 C=0.86 D=0.81 | 41.6 min elapsed
+problem 43: len_A 222, switch at 111; running acc A=0.89 B=0.82 C=0.86 D=0.82 | 42.1 min elapsed
+problem 44: len_A 223, switch at 111; running acc A=0.89 B=0.82 C=0.87 D=0.82 | 42.5 min elapsed
+problem 45: len_A 202, switch at 101; running acc A=0.89 B=0.80 C=0.87 D=0.83 | 42.9 min elapsed
+problem 46: len_A 347, switch at 173; running acc A=0.89 B=0.81 C=0.87 D=0.83 | 43.6 min elapsed
+problem 47: len_A 292, switch at 146; running acc A=0.90 B=0.81 C=0.88 D=0.83 | 44.2 min elapsed
+problem 48: len_A 135, switch at 67; running acc A=0.90 B=0.82 C=0.88 D=0.84 | 44.4 min elapsed
+problem 49: len_A 156, switch at 78; running acc A=0.90 B=0.82 C=0.88 D=0.84 | 44.7 min elapsed
+problem 50: len_A 144, switch at 72; running acc A=0.90 B=0.82 C=0.88 D=0.84 | 45.0 min elapsed
+problem 51: len_A 145, switch at 72; running acc A=0.90 B=0.81 C=0.88 D=0.85 | 49.2 min elapsed
+problem 52: len_A 219, switch at 109; running acc A=0.91 B=0.81 C=0.89 D=0.85 | 49.7 min elapsed
+problem 53: len_A 226, switch at 113; running acc A=0.91 B=0.81 C=0.89 D=0.85 | 50.1 min elapsed
+problem 54: len_A 147, switch at 73; running acc A=0.91 B=0.82 C=0.89 D=0.85 | 50.4 min elapsed
+problem 55: len_A 165, switch at 82; running acc A=0.91 B=0.82 C=0.89 D=0.86 | 50.7 min elapsed
+problem 56: len_A 234, switch at 117; running acc A=0.91 B=0.82 C=0.89 D=0.86 | 51.1 min elapsed
+problem 57: len_A 200, switch at 100; running acc A=0.91 B=0.83 C=0.90 D=0.86 | 51.6 min elapsed
+problem 58: len_A 206, switch at 103; running acc A=0.92 B=0.81 C=0.90 D=0.86 | 52.0 min elapsed
+problem 59: len_A 107, switch at 53; running acc A=0.92 B=0.82 C=0.90 D=0.87 | 52.2 min elapsed
+problem 60: len_A 417, switch at 208; running acc A=0.92 B=0.82 C=0.90 D=0.87 | 53.1 min elapsed
+problem 61: len_A 131, switch at 65; running acc A=0.92 B=0.82 C=0.90 D=0.87 | 53.4 min elapsed
+problem 62: len_A 360, switch at 180; running acc A=0.90 B=0.81 C=0.89 D=0.86 | 54.3 min elapsed
+problem 63: len_A 275, switch at 137; running acc A=0.91 B=0.81 C=0.89 D=0.86 | 54.7 min elapsed
+problem 64: len_A 134, switch at 67; running acc A=0.91 B=0.82 C=0.89 D=0.86 | 55.0 min elapsed
+problem 65: len_A 157, switch at 78; running acc A=0.91 B=0.80 C=0.88 D=0.85 | 55.3 min elapsed
+problem 66: len_A 176, switch at 88; running acc A=0.91 B=0.81 C=0.88 D=0.85 | 55.7 min elapsed
+problem 67: len_A 147, switch at 73; running acc A=0.91 B=0.81 C=0.88 D=0.85 | 56.0 min elapsed
+problem 68: len_A 144, switch at 72; running acc A=0.91 B=0.81 C=0.88 D=0.86 | 56.3 min elapsed
+problem 69: len_A 185, switch at 92; running acc A=0.91 B=0.81 C=0.89 D=0.86 | 56.8 min elapsed
+problem 70: len_A 210, switch at 105; running acc A=0.92 B=0.82 C=0.89 D=0.86 | 57.1 min elapsed
+problem 71: len_A 188, switch at 94; running acc A=0.92 B=0.82 C=0.89 D=0.86 | 57.5 min elapsed
+problem 72: len_A 99, switch at 49; running acc A=0.92 B=0.82 C=0.89 D=0.86 | 57.7 min elapsed
+problem 73: len_A 221, switch at 110; running acc A=0.92 B=0.81 C=0.89 D=0.86 | 58.1 min elapsed
+problem 74: len_A 188, switch at 94; running acc A=0.92 B=0.81 C=0.89 D=0.87 | 58.5 min elapsed
+problem 75: len_A 175, switch at 87; running acc A=0.91 B=0.80 C=0.88 D=0.86 | 58.8 min elapsed
+problem 76: len_A 240, switch at 120; running acc A=0.91 B=0.81 C=0.88 D=0.86 | 59.3 min elapsed
+problem 77: len_A 261, switch at 130; running acc A=0.91 B=0.81 C=0.88 D=0.86 | 59.8 min elapsed
+problem 78: len_A 366, switch at 183; running acc A=0.91 B=0.81 C=0.87 D=0.86 | 64.3 min elapsed
+problem 79: len_A 85, switch at 42; running acc A=0.91 B=0.81 C=0.88 D=0.86 | 64.5 min elapsed
+problem 80: len_A 148, switch at 74; running acc A=0.90 B=0.81 C=0.86 D=0.85 | 64.8 min elapsed
+problem 81: len_A 167, switch at 83; running acc A=0.90 B=0.82 C=0.87 D=0.85 | 65.1 min elapsed
+problem 82: len_A 95, switch at 47; running acc A=0.90 B=0.82 C=0.87 D=0.86 | 65.3 min elapsed
+problem 83: len_A 100, switch at 50; running acc A=0.90 B=0.82 C=0.87 D=0.86 | 65.5 min elapsed
+problem 84: len_A 327, switch at 163; running acc A=0.91 B=0.82 C=0.87 D=0.86 | 66.1 min elapsed
+problem 85: len_A 167, switch at 83; running acc A=0.91 B=0.83 C=0.87 D=0.86 | 66.4 min elapsed
+problem 86: len_A 139, switch at 69; running acc A=0.91 B=0.83 C=0.87 D=0.86 | 66.7 min elapsed
+problem 87: len_A 333, switch at 166; running acc A=0.90 B=0.82 C=0.86 D=0.85 | 67.5 min elapsed
+problem 88: len_A 303, switch at 151; running acc A=0.90 B=0.82 C=0.87 D=0.85 | 68.7 min elapsed
+problem 89: len_A 187, switch at 93; running acc A=0.89 B=0.81 C=0.86 D=0.84 | 69.1 min elapsed
+problem 90: len_A 197, switch at 98; running acc A=0.89 B=0.81 C=0.86 D=0.85 | 69.4 min elapsed
+problem 91: len_A 201, switch at 100; running acc A=0.89 B=0.82 C=0.86 D=0.85 | 69.8 min elapsed
+problem 92: len_A 325, switch at 162; running acc A=0.89 B=0.81 C=0.85 D=0.85 | 78.5 min elapsed
+problem 93: len_A 329, switch at 164; running acc A=0.89 B=0.81 C=0.84 D=0.85 | 82.9 min elapsed
+problem 94: len_A 280, switch at 140; running acc A=0.89 B=0.81 C=0.84 D=0.85 | 83.4 min elapsed
+problem 95: len_A 114, switch at 57; running acc A=0.90 B=0.81 C=0.84 D=0.85 | 83.7 min elapsed
+problem 96: len_A 87, switch at 43; running acc A=0.90 B=0.81 C=0.85 D=0.86 | 83.9 min elapsed
+problem 97: len_A 151, switch at 75; running acc A=0.90 B=0.82 C=0.85 D=0.86 | 84.7 min elapsed
+problem 98: len_A 192, switch at 96; running acc A=0.90 B=0.82 C=0.85 D=0.86 | 85.1 min elapsed
+problem 99: len_A 147, switch at 73; running acc A=0.90 B=0.82 C=0.85 D=0.86 | 85.6 min elapsed
+{
+ "summary": {
+  "A_large": {
+   "n": 100,
+   "accuracy": 0.9,
+   "ci95": [
+    0.84,
+    0.95
+   ],
+   "mean_quality": -0.04177261790817335,
+   "switch_shock_kl": null
+  },
+  "B_small": {
+   "n": 100,
+   "accuracy": 0.82,
+   "ci95": [
+    0.74,
+    0.89
+   ],
+   "mean_quality": -0.2672261765681082,
+   "switch_shock_kl": null
+  },
+  "C_reuse": {
+   "n": 100,
+   "accuracy": 0.85,
+   "ci95": [
+    0.78,
+    0.92
+   ],
+   "mean_quality": -0.13226295399680027,
+   "switch_shock_kl": 0.030204525603421694
+  },
+  "D_recompute": {
+   "n": 100,
+   "accuracy": 0.86,
+   "ci95": [
+    0.79,
+    0.93
+   ],
+   "mean_quality": -0.13579574936211394,
+   "switch_shock_kl": 0.0007752749101790858
+  }
+ },
+ "verdict_interval_overlap": "PASS (1): C matches B within noise -> KV reuse works. Proceed to the full controller.",
+ "paired_accuracy_diff_ci95": {
+  "C_reuse-B_small": [
+   0.03,
+   -0.04,
+   0.1
+  ],
+  "D_recompute-B_small": [
+   0.04,
+   -0.02,
+   0.11
+  ],
+  "C_reuse-D_recompute": [
+   -0.01,
+   -0.06,
+   0.04
+  ],
+  "A_large-B_small": [
+   0.08,
+   0.01,
+   0.15
+  ]
+ },
+ "preflight": {
+  "b_equals_d0": {
+   "0": true,
+   "1": true,
+   "2": true,
+   "3": true,
+   "4": true
+  },
+  "a_equals_plain": {
+   "0": true,
+   "1": true,
+   "2": true,
+   "3": false,
+   "4": true
+  }
+ }
+}

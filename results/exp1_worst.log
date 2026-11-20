@@ -1,0 +1,200 @@
+anchor problem  0: prompt    95, C0 ok  B ok , KL first 0.0925, D0=B True | 14s, 0 min
+anchor problem  1: prompt    57, C0 ok  B ok , KL first 0.3836, D0=B True | 9s, 0 min
+anchor problem  2: prompt    88, C0 ok  B ok , KL first 0.0400, D0=B True | 34s, 1 min
+anchor problem  3: prompt    65, C0 ok  B ok , KL first 0.0870, D0=B True | 14s, 1 min
+anchor problem  4: prompt   142, C0 ok  B ok , KL first 0.0676, D0=B True | 33s, 2 min
+anchor problem  5: prompt    85, C0 ok  B MISS, KL first 0.1221, D0=B True | 504s, 10 min
+anchor problem  6: prompt    73, C0 ok  B ok , KL first 0.0709, D0=B True | 16s, 10 min
+anchor problem  7: prompt   101, C0 MISS B MISS, KL first 0.0716, D0=B True | 24s, 11 min
+anchor problem  8: prompt   135, C0 ok  B ok , KL first 0.8458, D0=B True | 25s, 11 min
+anchor problem  9: prompt    91, C0 ok  B ok , KL first 0.4633, D0=B True | 19s, 11 min
+anchor problem 10: prompt    91, C0 ok  B ok , KL first 0.0719 | 7s, 12 min
+anchor problem 11: prompt    93, C0 ok  B ok , KL first 0.5222 | 4s, 12 min
+anchor problem 12: prompt    97, C0 MISS B MISS, KL first 0.1939 | 6s, 12 min
+anchor problem 13: prompt    91, C0 ok  B ok , KL first 0.0001 | 19s, 12 min
+anchor problem 14: prompt    85, C0 ok  B ok , KL first 0.5887 | 6s, 12 min
+anchor problem 15: prompt   125, C0 ok  B ok , KL first 0.0341 | 11s, 12 min
+anchor problem 16: prompt    84, C0 ok  B ok , KL first 0.0260 | 4s, 12 min
+anchor problem 17: prompt    89, C0 ok  B ok , KL first 0.4929 | 7s, 13 min
+anchor problem 18: prompt    58, C0 ok  B ok , KL first 0.0019 | 5s, 13 min
+anchor problem 19: prompt    97, C0 ok  B ok , KL first 0.4421 | 22s, 13 min
+anchor problem 20: prompt    94, C0 ok  B MISS, KL first 1.2295 | 28s, 13 min
+anchor problem 21: prompt    77, C0 MISS B MISS, KL first 0.1786 | 226s, 17 min
+anchor problem 22: prompt    87, C0 ok  B ok , KL first 0.1241 | 4s, 17 min
+anchor problem 23: prompt    69, C0 ok  B ok , KL first 0.0404 | 4s, 17 min
+anchor problem 24: prompt    72, C0 ok  B ok , KL first 0.0052 | 13s, 18 min
+anchor problem 25: prompt    98, C0 ok  B ok , KL first 0.0443 | 7s, 18 min
+anchor problem 26: prompt   100, C0 ok  B ok , KL first 0.6794 | 4s, 18 min
+anchor problem 27: prompt    87, C0 ok  B ok , KL first 0.5999 | 5s, 18 min
+anchor problem 28: prompt    82, C0 ok  B ok , KL first 0.0497 | 10s, 18 min
+anchor problem 29: prompt    98, C0 MISS B ok , KL first 0.3597 | 6s, 18 min
+anchor problem 30: prompt    72, C0 ok  B ok , KL first 0.1742 | 10s, 18 min
+anchor problem 31: prompt    94, C0 ok  B ok , KL first 0.4115 | 8s, 18 min
+anchor problem 32: prompt    72, C0 ok  B ok , KL first 0.4984 | 4s, 18 min
+anchor problem 33: prompt    61, C0 ok  B ok , KL first 0.0012 | 9s, 19 min
+anchor problem 34: prompt    73, C0 ok  B ok , KL first 0.6417 | 7s, 19 min
+anchor problem 35: prompt    83, C0 ok  B ok , KL first 0.0553 | 5s, 19 min
+anchor problem 36: prompt    72, C0 ok  B ok , KL first 0.3035 | 12s, 19 min
+anchor problem 37: prompt    92, C0 ok  B MISS, KL first 0.4259 | 22s, 19 min
+anchor problem 38: prompt    75, C0 ok  B ok , KL first 0.0036 | 5s, 19 min
+anchor problem 39: prompt   105, C0 ok  B MISS, KL first 0.0451 | 16s, 20 min
+anchor problem 40: prompt    79, C0 ok  B ok , KL first 0.0644 | 4s, 20 min
+anchor problem 41: prompt   156, C0 ok  B ok , KL first 0.0125 | 5s, 20 min
+anchor problem 42: prompt   112, C0 ok  B ok , KL first 0.2879 | 4s, 20 min
+anchor problem 43: prompt    92, C0 MISS B MISS, KL first 0.1636 | 8s, 20 min
+anchor problem 44: prompt   102, C0 ok  B ok , KL first 0.0198 | 7s, 20 min
+anchor problem 45: prompt   123, C0 MISS B MISS, KL first 0.0367 | 7s, 20 min
+anchor problem 46: prompt   129, C0 ok  B ok , KL first 0.0524 | 11s, 21 min
+anchor problem 47: prompt    81, C0 ok  B ok , KL first 0.4641 | 10s, 21 min
+anchor problem 48: prompt    67, C0 ok  B ok , KL first 0.0034 | 4s, 21 min
+anchor problem 49: prompt    74, C0 ok  B ok , KL first 0.5850 | 5s, 21 min
+1k     problem  0: prompt   782, C0 ok  B MISS, KL first 0.3704, D0=B True | 12s, 21 min
+1k     problem  1: prompt   874, C0 ok  B ok , KL first 0.0831, D0=B True | 11s, 21 min
+1k     problem  2: prompt   785, C0 MISS B ok , KL first 0.7921, D0=B True | 30s, 22 min
+1k     problem  3: prompt   839, C0 ok  B ok , KL first 0.2747, D0=B True | 13s, 22 min
+1k     problem  4: prompt   855, C0 ok  B ok , KL first 0.0358, D0=B True | 41s, 23 min
+1k     problem  5: prompt   782, C0 MISS B MISS, KL first 0.3772, D0=B True | 21s, 23 min
+1k     problem  6: prompt   866, C0 ok  B ok , KL first 0.2745, D0=B True | 16s, 23 min
+1k     problem  7: prompt   904, C0 MISS B MISS, KL first 0.3376, D0=B True | 460s, 31 min
+1k     problem  8: prompt   769, C0 MISS B MISS, KL first 0.4457, D0=B True | 27s, 31 min
+1k     problem  9: prompt   918, C0 ok  B ok , KL first 0.2115, D0=B True | 16s, 32 min
+1k     problem 10: prompt   783, C0 ok  B ok , KL first 0.6493 | 3s, 32 min
+1k     problem 11: prompt   859, C0 ok  B ok , KL first 0.1197 | 4s, 32 min
+1k     problem 12: prompt   822, C0 ok  B MISS, KL first 0.9123 | 11s, 32 min
+1k     problem 13: prompt   896, C0 ok  B MISS, KL first 0.0302 | 8s, 32 min
+1k     problem 14: prompt   793, C0 ok  B ok , KL first 0.0886 | 9s, 32 min
+1k     problem 15: prompt   841, C0 ok  B ok , KL first 0.2897 | 7s, 32 min
+1k     problem 16: prompt   902, C0 ok  B ok , KL first 0.8148 | 5s, 32 min
+1k     problem 17: prompt   919, C0 ok  B ok , KL first 0.3732 | 4s, 32 min
+1k     problem 18: prompt   872, C0 ok  B ok , KL first 0.9481 | 5s, 33 min
+1k     problem 19: prompt   790, C0 MISS B MISS, KL first 0.3042 | 7s, 33 min
+1k     problem 20: prompt   880, C0 MISS B MISS, KL first 0.1433 | 227s, 36 min
+1k     problem 21: prompt   901, C0 MISS B MISS, KL first 0.0709 | 18s, 37 min
+1k     problem 22: prompt   841, C0 ok  B ok , KL first 0.0137 | 4s, 37 min
+1k     problem 23: prompt   822, C0 ok  B ok , KL first 0.0831 | 4s, 37 min
+1k     problem 24: prompt   816, C0 ok  B ok , KL first 0.6806 | 6s, 37 min
+1k     problem 25: prompt   792, C0 ok  B ok , KL first 0.7666 | 6s, 37 min
+1k     problem 26: prompt   823, C0 ok  B ok , KL first 0.0326 | 5s, 37 min
+1k     problem 27: prompt   884, C0 ok  B ok , KL first 0.0182 | 6s, 37 min
+1k     problem 28: prompt   866, C0 MISS B ok , KL first 0.7982 | 228s, 41 min
+1k     problem 29: prompt   771, C0 ok  B ok , KL first 0.0574 | 5s, 41 min
+1k     problem 30: prompt   753, C0 ok  B ok , KL first 1.0916 | 7s, 41 min
+1k     problem 31: prompt   819, C0 ok  B ok , KL first 0.0692 | 7s, 41 min
+1k     problem 32: prompt   818, C0 ok  B ok , KL first 0.1735 | 5s, 41 min
+1k     problem 33: prompt   728, C0 ok  B ok , KL first 0.2263 | 11s, 42 min
+1k     problem 34: prompt   908, C0 ok  B ok , KL first 0.0744 | 5s, 42 min
+1k     problem 35: prompt   888, C0 ok  B ok , KL first 0.0292 | 3s, 42 min
+1k     problem 36: prompt   820, C0 ok  B ok , KL first 0.0116 | 7s, 42 min
+1k     problem 37: prompt   895, C0 MISS B MISS, KL first 0.6310 | 228s, 46 min
+1k     problem 38: prompt   706, C0 MISS B MISS, KL first 0.2474 | 8s, 46 min
+1k     problem 39: prompt   838, C0 ok  B ok , KL first 0.5461 | 10s, 46 min
+1k     problem 40: prompt   797, C0 ok  B MISS, KL first 1.9842 | 4s, 46 min
+1k     problem 41: prompt   732, C0 ok  B ok , KL first 0.0614 | 15s, 46 min
+1k     problem 42: prompt   903, C0 ok  B ok , KL first 0.3177 | 4s, 46 min
+1k     problem 43: prompt   770, C0 MISS B MISS, KL first 0.1574 | 7s, 46 min
+1k     problem 44: prompt   822, C0 ok  B ok , KL first 0.0257 | 9s, 47 min
+1k     problem 45: prompt   817, C0 MISS B ok , KL first 0.1049 | 6s, 47 min
+1k     problem 46: prompt   756, C0 ok  B MISS, KL first 0.3447 | 12s, 47 min
+1k     problem 47: prompt   824, C0 ok  B ok , KL first 0.1266 | 9s, 47 min
+1k     problem 48: prompt   891, C0 ok  B ok , KL first 0.3773 | 4s, 47 min
+1k     problem 49: prompt   835, C0 ok  B ok , KL first 0.1963 | 5s, 47 min
+4k     problem  0: prompt  3951, C0 ok  B ok , KL first 0.1230, D0=B True | 19s, 48 min
+4k     problem  1: prompt  3984, C0 ok  B ok , KL first 1.6160, D0=B True | 11s, 48 min
+4k     problem  2: prompt  3952, C0 MISS B ok , KL first 0.0921, D0=B True | 33s, 48 min
+4k     problem  3: prompt  3808, C0 ok  B MISS, KL first 0.0012, D0=B True | 11s, 48 min
+4k     problem  4: prompt  3955, C0 ok  B ok , KL first 0.0944, D0=B True | 25s, 49 min
+4k     problem  5: prompt  3916, C0 MISS B ok , KL first 1.2770, D0=B True | 267s, 53 min
+4k     problem  6: prompt  3976, C0 ok  B MISS, KL first 0.2977, D0=B True | 22s, 54 min
+4k     problem  7: prompt  3989, C0 MISS B MISS, KL first 1.4707, D0=B True | 467s, 61 min
+4k     problem  8: prompt  3806, C0 MISS B MISS, KL first 0.9708, D0=B True | 254s, 66 min
+4k     problem  9: prompt  3925, C0 ok  B ok , KL first 0.0282, D0=B True | 16s, 66 min
+4k     problem 10: prompt  3764, C0 ok  B MISS, KL first 0.3324 | 4s, 66 min
+4k     problem 11: prompt  3898, C0 MISS B ok , KL first 3.3238 | 9s, 66 min
+4k     problem 12: prompt  3710, C0 MISS B MISS, KL first 0.1709 | 14s, 66 min
+4k     problem 13: prompt  3897, C0 MISS B MISS, KL first 0.0485 | 230s, 70 min
+4k     problem 14: prompt  3913, C0 MISS B ok , KL first 0.6710 | 8s, 70 min
+4k     problem 15: prompt  3951, C0 ok  B ok , KL first 0.1743 | 9s, 71 min
+4k     problem 16: prompt  3986, C0 ok  B MISS, KL first 0.2100 | 7s, 71 min
+4k     problem 17: prompt  3940, C0 MISS B ok , KL first 0.0018 | 10s, 71 min
+4k     problem 18: prompt  3971, C0 ok  B ok , KL first 0.0569 | 6s, 71 min
+4k     problem 19: prompt  3921, C0 MISS B MISS, KL first 0.9393 | 229s, 75 min
+4k     problem 20: prompt  3898, C0 MISS B MISS, KL first 0.6831 | 229s, 79 min
+4k     problem 21: prompt  3884, C0 MISS B MISS, KL first 0.4439 | 7s, 79 min
+4k     problem 22: prompt  3987, C0 ok  B ok , KL first 0.2905 | 6s, 79 min
+4k     problem 23: prompt  3982, C0 ok  B ok , KL first 0.0816 | 4s, 79 min
+4k     problem 24: prompt  3922, C0 ok  B ok , KL first 0.0086 | 18s, 79 min
+4k     problem 25: prompt  3881, C0 ok  B ok , KL first 0.3149 | 6s, 79 min
+4k     problem 26: prompt  3937, C0 ok  B ok , KL first 1.2132 | 6s, 79 min
+4k     problem 27: prompt  3880, C0 ok  B ok , KL first 0.0367 | 8s, 79 min
+4k     problem 28: prompt  3878, C0 MISS B MISS, KL first 1.5321 | 230s, 83 min
+4k     problem 29: prompt  3985, C0 MISS B MISS, KL first 0.0783 | 5s, 83 min
+4k     problem 30: prompt  3928, C0 ok  B ok , KL first 0.9143 | 11s, 84 min
+4k     problem 31: prompt  3990, C0 MISS B MISS, KL first 0.2412 | 8s, 84 min
+4k     problem 32: prompt  3974, C0 ok  B ok , KL first 0.0381 | 5s, 84 min
+4k     problem 33: prompt  3928, C0 ok  B ok , KL first 0.2578 | 21s, 84 min
+4k     problem 34: prompt  3936, C0 ok  B MISS, KL first 0.3912 | 5s, 84 min
+4k     problem 35: prompt  3927, C0 ok  B ok , KL first 0.1751 | 7s, 84 min
+4k     problem 36: prompt  3904, C0 ok  B MISS, KL first 2.3830 | 8s, 84 min
+4k     problem 37: prompt  3885, C0 MISS B MISS, KL first 1.0197 | 8s, 85 min
+4k     problem 38: prompt  3981, C0 MISS B MISS, KL first 0.7260 | 7s, 85 min
+4k     problem 39: prompt  3977, C0 ok  B ok , KL first 0.8646 | 12s, 85 min
+4k     problem 40: prompt  3912, C0 MISS B ok , KL first 0.0729 | 7s, 85 min
+4k     problem 41: prompt  3918, C0 ok  B MISS, KL first 0.0080 | 7s, 85 min
+4k     problem 42: prompt  3995, C0 ok  B ok , KL first 0.6902 | 5s, 85 min
+4k     problem 43: prompt  3911, C0 MISS B MISS, KL first 0.5679 | 10s, 85 min
+4k     problem 44: prompt  3980, C0 ok  B MISS, KL first 0.2732 | 8s, 86 min
+4k     problem 45: prompt  3667, C0 ok  B ok , KL first 0.0120 | 7s, 86 min
+4k     problem 46: prompt  3897, C0 ok  B ok , KL first 1.2139 | 10s, 86 min
+4k     problem 47: prompt  3895, C0 ok  B MISS, KL first 0.0301 | 21s, 86 min
+4k     problem 48: prompt  3826, C0 ok  B ok , KL first 1.1337 | 6s, 86 min
+4k     problem 49: prompt  3836, C0 ok  B ok , KL first 0.4379 | 7s, 86 min
+16k    problem  0: prompt 16164, C0 ok  B ok , KL first 0.0282, D0=B True | 39s, 87 min
+16k    problem  1: prompt 16221, C0 MISS B ok , KL first 0.3031, D0=B True | 28s, 88 min
+16k    problem  2: prompt 16278, C0 MISS B MISS, KL first 0.3257, D0=B True | 40s, 88 min
+16k    problem  3: prompt 16210, C0 ok  B ok , KL first 0.0314, D0=B True | 29s, 89 min
+16k    problem  4: prompt 16149, C0 MISS B ok , KL first 0.5112, D0=B True | 276s, 93 min
+16k    problem  5: prompt 16173, C0 MISS B MISS, KL first 0.2015, D0=B True | 254s, 98 min
+16k    problem  6: prompt 16161, C0 MISS B MISS, KL first 0.2998, D0=B True | 252s, 102 min
+16k    problem  7: prompt 16224, C0 MISS B MISS, KL first 0.7392, D0=B True | 36s, 102 min
+16k    problem  8: prompt 16221, C0 MISS B MISS, KL first 0.0423, D0=B True | 266s, 107 min
+16k    problem  9: prompt 16202, C0 ok  B MISS, KL first 0.6775, D0=B True | 25s, 107 min
+16k    problem 10: prompt 16144, C0 ok  B MISS, KL first 2.1322 | 10s, 107 min
+16k    problem 11: prompt 16133, C0 MISS B ok , KL first 1.7741 | 14s, 108 min
+16k    problem 12: prompt 16239, C0 MISS B MISS, KL first 0.5620 | 25s, 108 min
+16k    problem 13: prompt 16282, C0 MISS B ok , KL first 0.2069 | 16s, 108 min
+16k    problem 14: prompt 16278, C0 MISS B MISS, KL first 0.2909 | 15s, 109 min
+16k    problem 15: prompt 16198, C0 MISS B MISS, KL first 0.3288 | 239s, 112 min
+16k    problem 16: prompt 16226, C0 MISS B MISS, KL first 1.5908 | 239s, 116 min
+16k    problem 17: prompt 16154, C0 ok  B MISS, KL first 0.2576 | 15s, 117 min
+16k    problem 18: prompt 16263, C0 MISS B MISS, KL first 0.0084 | 10s, 117 min
+16k    problem 19: prompt 16284, C0 MISS B MISS, KL first 1.3454 | 17s, 117 min
+16k    problem 20: prompt 16108, C0 MISS B MISS, KL first 0.1087 | 21s, 118 min
+16k    problem 21: prompt 16249, C0 MISS B MISS, KL first 0.0609 | 239s, 122 min
+16k    problem 22: prompt 16158, C0 ok  B MISS, KL first 0.1177 | 12s, 122 min
+16k    problem 23: prompt 16140, C0 ok  B ok , KL first 0.1989 | 16s, 122 min
+16k    problem 24: prompt 16069, C0 ok  B ok , KL first 2.6808 | 12s, 122 min
+16k    problem 25: prompt 16161, C0 MISS B ok , KL first 0.4367 | 239s, 126 min
+16k    problem 26: prompt 16106, C0 ok  B MISS, KL first 1.3299 | 14s, 126 min
+16k    problem 27: prompt 16249, C0 ok  B ok , KL first 0.4637 | 13s, 127 min
+16k    problem 28: prompt 16253, C0 ok  B MISS, KL first 0.7130 | 11s, 127 min
+16k    problem 29: prompt 16170, C0 MISS B MISS, KL first 0.3391 | 239s, 131 min
+16k    problem 30: prompt 16247, C0 MISS B MISS, KL first 0.3988 | 14s, 131 min
+16k    problem 31: prompt 16193, C0 MISS B MISS, KL first 0.1547 | 239s, 135 min
+16k    problem 32: prompt 16251, C0 ok  B MISS, KL first 0.0079 | 13s, 135 min
+16k    problem 33: prompt 16081, C0 ok  B ok , KL first 0.0346 | 14s, 135 min
+16k    problem 34: prompt 16205, C0 MISS B MISS, KL first 1.4031 | 10s, 136 min
+16k    problem 35: prompt 16254, C0 ok  B MISS, KL first 0.0119 | 14s, 136 min
+16k    problem 36: prompt 16217, C0 ok  B MISS, KL first 0.0290 | 12s, 136 min
+16k    problem 37: prompt 16111, C0 MISS B MISS, KL first 0.0709 | 239s, 140 min
+16k    problem 38: prompt 16227, C0 ok  B MISS, KL first 0.0120 | 13s, 140 min
+16k    problem 39: prompt 16230, C0 MISS B MISS, KL first 0.4839 | 26s, 141 min
+16k    problem 40: prompt 16267, C0 MISS B MISS, KL first 1.6374 | 11s, 141 min
+16k    problem 41: prompt 16168, C0 MISS B MISS, KL first 0.8616 | 15s, 141 min
+16k    problem 42: prompt 16110, C0 ok  B MISS, KL first 0.4606 | 240s, 145 min
+16k    problem 43: prompt 16255, C0 MISS B MISS, KL first 0.3166 | 15s, 145 min
+16k    problem 44: prompt 16250, C0 MISS B MISS, KL first 0.7909 | 13s, 146 min
+16k    problem 45: prompt 16112, C0 MISS B MISS, KL first 0.5866 | 14s, 146 min
+16k    problem 46: prompt 16191, C0 MISS B MISS, KL first 0.2528 | 239s, 150 min
+16k    problem 47: prompt 16190, C0 ok  B MISS, KL first 0.3169 | 17s, 150 min
+16k    problem 48: prompt 16232, C0 ok  B ok , KL first 0.1104 | 13s, 150 min
+16k    problem 49: prompt 16212, C0 ok  B ok , KL first 1.1099 | 11s, 150 min
