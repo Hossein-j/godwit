@@ -1,0 +1,24 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 112.22it/s]
+stream anchor problem  0: prompt    95, ok    124 tok, q kept -, same as A True | 5s, 0 min
+stream anchor problem  1: prompt    57, ok     87 tok, q kept -, same as A True | 3s, 0 min
+stream anchor problem  2: prompt    88, ok    220 tok, q kept -, same as A True | 7s, 0 min
+stream anchor problem  3: prompt    65, ok     88 tok, q kept -, same as A True | 3s, 0 min
+stream anchor problem  4: prompt   142, ok    167 tok, q kept -, same as A True | 6s, 0 min
+stream anchor problem  5: prompt    85, ok    174 tok, q kept -, same as A True | 6s, 0 min
+stream anchor problem  6: prompt    73, ok    226 tok, q kept -, same as A True | 8s, 1 min
+stream anchor problem  7: prompt   101, MISS  274 tok, q kept -, same as A True | 9s, 1 min
+stream anchor problem  8: prompt   135, ok    375 tok, q kept -, same as A True | 12s, 1 min
+stream anchor problem  9: prompt    91, ok    216 tok, q kept -, same as A True | 7s, 1 min
+snap   anchor problem  0: prompt    95, ok    124 tok, q kept -, same as A True | 4s, 1 min
+snap   anchor problem  1: prompt    57, ok     87 tok, q kept -, same as A True | 3s, 1 min
+snap   anchor problem  2: prompt    88, ok    220 tok, q kept -, same as A True | 7s, 1 min
+snap   anchor problem  3: prompt    65, ok     88 tok, q kept -, same as A True | 3s, 1 min
+snap   anchor problem  4: prompt   142, ok    167 tok, q kept -, same as A True | 6s, 1 min
+snap   anchor problem  5: prompt    85, ok    174 tok, q kept -, same as A True | 6s, 2 min
+snap   anchor problem  6: prompt    73, ok    226 tok, q kept -, same as A True | 8s, 2 min
+snap   anchor problem  7: prompt   101, MISS  274 tok, q kept -, same as A True | 9s, 2 min
+snap   anchor problem  8: prompt   135, ok    375 tok, q kept -, same as A True | 13s, 2 min
+snap   anchor problem  9: prompt    91, ok    216 tok, q kept -, same as A True | 7s, 2 min
+check 2: 20/20 identical to stored A, no evictions
+CHECK2-PASS
+CHAIN EXIT 0

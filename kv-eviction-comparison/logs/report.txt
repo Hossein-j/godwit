@@ -1,0 +1,36 @@
+
+== 1k E-stream: n 50, budget bound in 18/50
+   accuracy A 0.84 [0.74,0.94]  B 0.72 [0.60,0.84]  C0 0.76 [0.64,0.86]  E-stream 0.80 [0.68,0.90]
+   H1 (C0 > E-stream): C0 - E-stream -0.04 [-0.20,+0.12], McNemar C0-only 7 vs E-stream-only 9, p = 0.804
+   A - E-stream +0.04 [+0.00,+0.10], p = 0.500; runaway 1 loop 1; question kept {'mean': 0.9999999916553497, 'min': 0.9999999403953552, 'max': 1.0}
+   failure classes {'reasoning slip': 9, 'runaway/loop': 1}
+
+== 1k E-snap: n 50, budget bound in 46/50
+   accuracy A 0.84 [0.74,0.94]  B 0.72 [0.60,0.84]  C0 0.76 [0.64,0.86]  E-snap 0.92 [0.84,0.98]
+   H2 (two-sided): C0 - E-snap -0.16 [-0.30,-0.04], McNemar C0-only 2 vs E-snap-only 10, p = 0.039
+   A - E-snap -0.08 [-0.16,-0.02], p = 0.125; runaway 0 loop 0; question kept {'mean': 0.9990607124567031, 'min': 0.967741921544075, 'max': 1.0}
+   failure classes {'reasoning slip': 4}
+
+== 4k E-stream: n 50, budget bound in 50/50
+   accuracy A 0.82 [0.70,0.92]  B 0.56 [0.42,0.70]  C0 0.62 [0.48,0.76]  E-stream 0.00 [0.00,0.00]
+   H1 (C0 > E-stream): C0 - E-stream +0.62 [+0.48,+0.76], McNemar C0-only 31 vs E-stream-only 0, p = 0.000
+   A - E-stream +0.82 [+0.70,+0.92], p = 0.000; runaway 5 loop 6; question kept {'mean': 0.0, 'min': 0.0, 'max': 0.0}
+   failure classes {'reasoning slip': 32, 'wrong question': 12, 'runaway/loop': 6}
+
+== 4k E-snap: n 50, budget bound in 50/50
+   accuracy A 0.82 [0.70,0.92]  B 0.56 [0.42,0.70]  C0 0.62 [0.48,0.76]  E-snap 0.36 [0.22,0.50]
+   H2 (two-sided): C0 - E-snap +0.26 [+0.10,+0.42], McNemar C0-only 16 vs E-snap-only 3, p = 0.004
+   A - E-snap +0.46 [+0.30,+0.62], p = 0.000; runaway 5 loop 6; question kept {'mean': 0.773053747471422, 'min': 0.5900735408067703, 'max': 0.9625000059604645}
+   failure classes {'reasoning slip': 21, 'wrong question': 5, 'runaway/loop': 6}
+
+== 16k E-stream: n 50, budget bound in 50/50  [B too weak: B comparisons not meaningful]
+   accuracy A 0.64 [0.50,0.76]  B 0.26 [0.14,0.38]  C0 0.40 [0.26,0.54]  E-stream 0.00 [0.00,0.00]
+   H1 (C0 > E-stream): C0 - E-stream +0.40 [+0.26,+0.54], McNemar C0-only 20 vs E-stream-only 0, p = 0.000
+   A - E-stream +0.64 [+0.50,+0.76], p = 0.000; runaway 6 loop 4; question kept {'mean': 0.0, 'min': 0.0, 'max': 0.0}
+   failure classes {'reasoning slip': 20, 'wrong question': 24, 'runaway/loop': 6}
+
+== 16k E-snap: n 50, budget bound in 50/50  [B too weak: B comparisons not meaningful]
+   accuracy A 0.64 [0.50,0.76]  B 0.26 [0.14,0.38]  C0 0.40 [0.26,0.54]  E-snap 0.06 [0.00,0.14]
+   H2 (two-sided): C0 - E-snap +0.34 [+0.18,+0.50], McNemar C0-only 19 vs E-snap-only 2, p = 0.000
+   A - E-snap +0.58 [+0.42,+0.72], p = 0.000; runaway 16 loop 17; question kept {'mean': 0.37598990549566225, 'min': 0.17600000731181353, 'max': 0.6157407434657216}
+   failure classes {'runaway/loop': 16, 'reasoning slip': 14, 'wrong question': 17}

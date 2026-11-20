@@ -1,0 +1,19 @@
+NVIDIA GeForce RTX 4090, 615.71.09
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 75.95it/s]
+1k   problem 0: prompt 782 (stored 782), A same True, C0 same True | 11s
+1k   problem 1: prompt 874 (stored 874), A same True, C0 same True | 9s
+1k   problem 2: prompt 785 (stored 785), A same True, C0 same True | 19s
+1k   problem 3: prompt 839 (stored 839), A same True, C0 same True | 7s
+1k   problem 4: prompt 855 (stored 855), A same True, C0 same True | 13s
+4k   problem 0: prompt 3951 (stored 3951), A same True, C0 same True | 10s
+4k   problem 1: prompt 3984 (stored 3984), A same True, C0 same True | 6s
+4k   problem 2: prompt 3952 (stored 3952), A same True, C0 same True | 19s
+4k   problem 3: prompt 3808 (stored 3808), A same True, C0 same True | 7s
+4k   problem 4: prompt 3955 (stored 3955), A same True, C0 same True | 15s
+16k  problem 0: prompt 16164 (stored 16164), A same True, C0 same True | 19s
+16k  problem 1: prompt 16221 (stored 16221), A same True, C0 same True | 12s
+16k  problem 2: prompt 16278 (stored 16278), A same True, C0 same True | 22s
+16k  problem 3: prompt 16210 (stored 16210), A same True, C0 same True | 12s
+16k  problem 4: prompt 16149 (stored 16149), A same True, C0 same True | 322s
+reproduced 30/30 records exactly
+EXIT 0

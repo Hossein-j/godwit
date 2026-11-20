@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Godwit Endurance Inference (GEI)"
+abstract: >-
+  A language model that shrinks its own weights during a single generation,
+  on a schedule planned before launch, to free memory for its growing KV cache.
+authors:
+  - family-names: Jamali
+    given-names: Hossein
+  - family-names: Harris
+    given-names: "Frederick C."
+    name-suffix: "Jr."
+repository-code: "https://github.com/Hossein-j/godwit"
+license: Apache-2.0
+version: 0.1.0
+date-released: 2026-11-01
+keywords:
+  - llm-inference
+  - kv-cache
+  - elastic-models
+  - matformer
+  - memory-efficiency

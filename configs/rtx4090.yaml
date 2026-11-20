@@ -1,0 +1,61 @@
+# Envelope and model family for a single RTX 4090 (24 GB).
+#
+# IMPORTANT: every number below is a starting estimate, not a measurement.
+# Run `python scripts/calibrate.py` on your own machine before using these in
+# any result that goes in the paper.
+
+device:
+  name: "RTX 4090"
+  total_memory_gb: 24
+  # Held back for activations, fragmentation and the allocator. Measure it:
+  # load the largest config, generate, and watch torch.cuda.max_memory_allocated.
+  reserve_gb: 2.5
+
+envelope:
+  # KV bytes per token, dense GQA: 2 (K and V) * layers * kv_heads * head_dim
+  # * dtype_bytes. Models with KV sharing, sliding windows or Mamba layers grow
+  # far less; see docs/MODEL_SELECTION.md ("How kappa is derived").
+  # The value below is a round placeholder, not any real model. For reference:
+  #   Qwen3-4B      2 * 36 * 8 * 128 * 2 = 147456 B = 144 KiB/token
+  #   Gemma 3n E4B  2 * 4 (growing full layers) * 2 * 256 * 2 = 8 KiB/token
+  kv_bytes_per_token: 131072      # 128 KiB/token placeholder
+  # Energy per byte read per token. Decoding is bandwidth bound.
+  # Measure with nvidia-smi power draw / achieved tokens-per-second.
+  alpha_joules_per_byte: 1.0e-9
+  energy_joules: .inf             # set a real budget for Experiment 5
+  prompt_kv_bytes: 0
+
+# Nested family. Replace with the true sub-model sizes of whichever elastic
+# checkpoint you pick; quality values should come from your own eval, not guesses.
+family:
+  - name: "E4B"
+    weight_gb: 4.4
+    quality: 1.00
+  - name: "E3B"
+    weight_gb: 3.2
+    quality: 0.95
+  - name: "E2B"
+    weight_gb: 2.0
+    quality: 0.88
+
+schedule:
+  segment_tokens: 512
+  lam: 0.0                        # 0 = maximise completion probability alone
+  energy_buckets: 64
+
+launch:
+  tau: 0.95                       # go/no-go threshold
+  tau_abort: 0.05                 # mid-flight abort threshold
+
+prior:
+  kind: lognormal
+  median_tokens: 8000
+  sigma: 0.6
+  max_tokens: 32000
+
+experiment1:
+  switch_points: [0.25, 0.50, 0.75]
+  conditions: ["A_large", "B_small", "C_reuse", "D_recompute"]
+  n_problems: 100
+  max_new_tokens: 16000
+  seeds: [0, 1, 2]

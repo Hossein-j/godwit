@@ -1,0 +1,10 @@
+runner path    none   tokens identical to direct loop: True  evicted 0/0  PASS
+runner path    stream tokens identical to direct loop: True  evicted 75/75  PASS
+runner path    snap   tokens identical to direct loop: True  evicted 75/75  PASS
+torch.float32   none   vs masked ref 8.58e-06  vs full cache 0.00e+00  argmax agree 40/40  evicted    0  PASS
+torch.float32   stream vs masked ref 3.81e-06  vs full cache 4.59e-01  argmax agree 40/40  evicted   76  PASS
+torch.float32   snap   vs masked ref 2.86e-06  vs full cache 4.49e-01  argmax agree 40/40  evicted   76  PASS
+torch.bfloat16  none   vs masked ref 1.86e-02  vs full cache 0.00e+00  argmax agree 40/40  evicted    0  PASS
+torch.bfloat16  stream vs masked ref 1.57e-02  vs full cache 4.65e-01  argmax agree 38/40  evicted   76  PASS
+torch.bfloat16  snap   vs masked ref 1.25e-02  vs full cache 4.29e-01  argmax agree 39/40  evicted   76  PASS
+growing layers in the tiny model: [4]
